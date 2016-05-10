@@ -1,0 +1,1 @@
+puts (1..100).to_a.map { |x| x.to_s }.each_with_index { |x,i| x.concat("fizz").sub!(/[0-9]*/,"") if ((i+1) % 3).zero? }.each_with_index { |x,i| x.concat("buzz").sub!(/[0-9]*/,"") if ((i+1) % 5).zero? }
