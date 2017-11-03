@@ -1,6 +1,6 @@
 #This is probably the best to use if monkey patching, as it allows you to actually use inheritance!
 
-module FizzBuzzFixnum #The name is basically unimportanc, you will use it onece more.
+module FizzBuzzFixnum #The name is basically unimportant, you will use it once more.
   def to_s #the method to change
     if (self % 15).zero?
       "FizzBuzz"
